@@ -1,0 +1,20 @@
+{
+  "name": "ganache-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "truffle": "^5.5.2",
+    "web3": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha",
+    "tinit": "truffle init",
+    "tnew": "truffle create contract HelloWorld",
+    "tcompile": "truffle compile",
+    "tmigrate": "truffle migrate"
+  },
+  "author": "rodrigoap",
+  "license": "ISC"
+}
